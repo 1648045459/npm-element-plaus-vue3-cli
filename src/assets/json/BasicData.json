@@ -1,0 +1,15 @@
+{ "historyCount": {"value": 10, "desc": "最近交易历史保留个数"},
+  "mobileAreaCode": {"value": [
+        {
+          "value": 1,
+          "label": "中国 +86"
+        }
+      ], "desc":"手机区号"},
+  "walletProvider": {
+    "rinkeby": {"url": "https://rinkeby.infura.io/v3/190d86646e5b422bb598397f7ec99fdd", "chainId": "0x04"},
+    "localhost":{"url": "http://en-network-disk.devapps.netwarps.com/v1/user/phoneNumber/13481407508/saltrandom", "chainId": "0x04"},
+    "desc": "钱包交易提供者，在https://infura.io/申请project ID"
+  },
+  "phoneVerificationCode": {"value": 60, "desc":"手机再次发送验证码间隔时间，单位秒"},
+  "countInterval":{"value": 30, "desc": "循环刷新，循环次数"}
+}

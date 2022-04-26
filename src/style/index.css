@@ -1,0 +1,36 @@
+
+body{
+  font-size: 14px;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 6px;
+  }
+   
+  ::-webkit-scrollbar-track {
+    background: 0 0
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color:#ddd
+  }
+   
+  ::-webkit-scrollbar-corner {
+    background-color: #535353
+  }
+    
+  ::-webkit-scrollbar-resizer {
+    background-color:#FF6E00
+  }
+
+
+.svg-style-video {
+  color: red ;
+  width: 8em ;
+  height: 8em ;
+  font-size: 24px ;
+}
