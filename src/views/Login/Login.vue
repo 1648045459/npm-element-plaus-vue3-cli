@@ -2,7 +2,7 @@
 <template>
   <div class="contain">
     <!-- 1.注册输入手机号获取验证码 -->
-    <el-form
+    <!-- <el-form
       ref="formData"
       :model="formData"
       :rules="rules"
@@ -110,25 +110,25 @@
           </el-link>
         </div>
       </el-form-item>
-    </el-form>
+    </el-form> -->
   </div>
 </template>
 
 <script lang="ts" setup>
-import walletPng from '@/assets/images/chain-wallet.png';
-import { generateMnemonic, mnemonicToSeed } from '@/views/Register/bip39';
-import { hdkey } from 'ethereumjs-wallet';
-var util = require('ethereumjs-util');
-import { KJUR, KEYUTIL } from 'jsrsasign';
-import { setCookie } from '@/utils/auth';
-import * as asmCrypto from 'asmcrypto.js';
-import { Encrypt } from '@/utils/cryptoJs';
-import basicData from '@/assets/json/BasicData.json';
-import { getVerCode, checkVerCode } from '@/api/register';
-import { getSaltByPhoneNum } from '@/api/user.ts';
-import { Sha256SaltRandom, onPBKDF2_HMAC_SHA512 } from '@/utils/index';
-import { decryptAesEcb } from '@/utils/cryptoJsAesEcb';
-import { reactive } from '@vue/reactivity';
+// import walletPng from '@/assets/images/chain-wallet.png';
+// import { generateMnemonic, mnemonicToSeed } from '@/views/Register/bip39';
+// import { hdkey } from 'ethereumjs-wallet';
+// var util = require('ethereumjs-util');
+// import { KJUR, KEYUTIL } from 'jsrsasign';
+// import { setCookie } from '@/utils/auth';
+// import * as asmCrypto from 'asmcrypto.js';
+// import { Encrypt } from '@/utils/cryptoJs';
+// import basicData from '@/assets/json/BasicData.json';
+// import { getVerCode, checkVerCode } from '@/api/register';
+// import { getSaltByPhoneNum } from '@/api/user.ts';
+// import { Sha256SaltRandom, onPBKDF2_HMAC_SHA512 } from '@/utils/index';
+// import { decryptAesEcb } from '@/utils/cryptoJsAesEcb';
+// import { reactive } from '@vue/reactivity';
 
 const formData = reactive({ address: 1 });
 // export default {
